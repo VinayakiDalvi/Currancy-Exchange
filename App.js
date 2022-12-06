@@ -106,6 +106,9 @@ return (
   <input type="button"  class="xl"  value="MONTH" />
   </div>
   <div class="b3">
+  <input type="button" class="xl" value="QUATERLY" />
+  </div>
+<div class="b4">
   <input type="button" class="xl" value="YEAR" />
   </div>
   </div>
