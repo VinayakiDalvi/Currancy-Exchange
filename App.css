@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+height: 100vh;
+width: 100%;
+/* display: flex; */
+/* align-items: center; */
+/* flex-direction: column; */
+padding-top: 40px;
+background-image: url(c2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.5; */
+
+}
+.heading{
+font-family: 'Pacifico', cursive;
+font-size: 35px;
+padding: 0 0 0 477px;
+color: white;
+font-style: oblique;
+}
+.All1{
+
+border-radius: 8px;
+width: 80vw;
+margin-left: 10vw;
+background-color: rgb(255, 255, 255);
+box-shadow: rgba(87, 46, 81, 0.3) 0px 6px 12px;
+margin-top: 20px;
+
+}
+.all{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #0092ff3b
+  
+}
+.upload{
+  /* padding: auto; */
+  width: 271px;
+  height: 64px;
+}
+.upload label{
+  margin: 7px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #0000007a;
+
+}
+.container{
+height: 300px;
+width: 800px;
+display: flex;
+
+justify-content: space-around;
+align-items: center;
+margin-left: -111px;
+}
+input{
+padding-left: 5px;
+font-size: 20px;
+height: 36px;
+}
+.middle,.right{
+width: 120px;
+}
+.switch{
+padding: 5px;
+margin-top: 25px;
+background-color: rgb(226, 252, 184);
+border-radius: 50%;
+cursor: pointer;
+}
+.result{
+box-sizing: border-box;
+width: 800px;
+padding-left: 30px;
+}
+button{
+width: 100px;
+height: 30px;
+font-weight: bold;
+font-size: 20px;
+border: 2px solid forestgreen;
+background-color: rgb(226, 252, 184);
+cursor: pointer;
+}
+p,h3, button, .switch{
+color: #0000007a;
+}
+p{
+font-size: 30px;
+}
+.btn{
+  padding-left: 560px;
+  padding-bottom: 20px;
+  background-color: #0092ff3b
+}
+
+/* .App{
+  
+} */
+.btx{
+  display: flex;
+  justify-content: center;
+  align-items: column;
+  flex-direction: column;
+}
+.b1{
+  margin-bottom: 10px;
+}
+.b2{
+  margin-bottom: 10px;
+}
+.xl{
+    font-size: 14px;
+    padding-right: 4px;
+    color: #0000007a;;
+}
